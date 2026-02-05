@@ -1,0 +1,4 @@
+Comm_ID,Comm_Date,Comm_Type,Related_RFQ_ID,Related_Quote_ID,Related_PO_ID,Supplier_ID,Contact_Name,Internal_Owner,Summary,Action_Required,Action_Owner,Action_Due_Date,Escalation_Level,Status,Notes
+COM-0001,2026-02-03,Email,RFQ-2026-001,,,SUP-001,Anna Keller,Omar Haddad,Supplier requested extension of bid due date,Approve or reject extension,Omar Haddad,2026-02-04,Buyer,Closed,Approved 3-day extension
+COM-0002,2026-02-04,Meeting,RFQ-2026-002,,,SUP-002,Wei Tan,Lina Rahman,Reviewed technical deviations and FAT plan,Issue consolidated TQ response,Maria Chen,2026-02-09,Procurement Manager,Open,Potential impact to need date
+COM-0003,2026-02-05,Call,RFQ-2026-003,QT-003-A,,SUP-003,Emre Yilmaz,Kareem Saleh,Negotiated additional 2 percent discount,Confirm final commercial offer,Kareem Saleh,2026-02-06,Buyer,Closed,Discount accepted
