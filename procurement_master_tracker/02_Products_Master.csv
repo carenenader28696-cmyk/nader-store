@@ -1,0 +1,4 @@
+Product_ID,Product_Description,Category,Specification,Unit_of_Measure,Project_WBS,Required_On_Site_Date,Criticality,Preferred_Supplier_ID,Approved_Alternative_Supplier_ID,Estimated_Unit_Price_USD,Budget_Line_USD,Engineering_Owner,Procurement_Owner,Status,Risk_Level,Notes
+PRD-001,Gate Valve 8 inch Class 300,Mechanical,API 600 carbon steel,EA,WBS-21-PIPE,2026-05-15,High,SUP-001,SUP-003,980,196000,Ali Nasser,Omar Haddad,RFQ Issued,Medium,Long lead cast body
+PRD-002,Motor Control Center Section B,Electrical,IEC 61439 Form 4b,EA,WBS-34-ELEC,2026-06-10,High,SUP-002,,12500,250000,Maria Chen,Lina Rahman,Technical Clarification,High,Factory testing witness required
+PRD-003,Hex Bolt M16 SS316,Mechanical,ISO 4014,A,WBS-21-PIPE,2026-04-25,Medium,SUP-003,SUP-001,1.2,36000,Ali Nasser,Kareem Saleh,Quoted,Low,Bulk lot can be split shipment

@@ -1,0 +1,4 @@
+Quote_ID,RFQ_ID,Supplier_ID,Product_ID,Quote_Received_Date,Quote_Revision,Quoted_Unit_Price,Quote_Currency,Exchange_Rate_to_USD,Unit_Price_USD,MOQ,Lead_Time_Days,Incoterm,Payment_Terms,Warranty_Months,Compliance_Score_100,Commercial_Score_100,Total_Score_100,Quote_Status,Rank,Recommendation,Next_Action,Next_Action_Owner,Risk_Level,Notes
+QT-001-A,RFQ-2026-001,SUP-001,PRD-001,2026-02-04,R1,910,EUR,1.08,982.8,50,38,EXW,Net 45,24,88,76,82,Under Evaluation,1,Negotiate lead time reduction,Request expedited production option,Omar Haddad,Medium,Technically compliant
+QT-002-A,RFQ-2026-002,SUP-002,PRD-002,2026-02-06,R0,12750,USD,1,12750,1,42,FCA,Net 30,18,81,70,75,Negotiating,1,Hold pending TQ closure,Request LD acceptance,Lina Rahman,High,Deviation on panel IP rating
+QT-003-A,RFQ-2026-003,SUP-003,PRD-003,2026-02-02,R2,1.08,USD,1,1.08,10000,19,CIF,Net 60,12,92,89,91,Awarded,1,Award after budget check,Issue PO by end of week,Kareem Saleh,Low,Best value offer

@@ -1,0 +1,6 @@
+KPI_ID,KPI_Name,KPI_Definition,Formula_Guidance,Reporting_Period,Target,Current_Value,RAG_Status,Data_Source,Owner,Last_Refreshed,Action_if_Off_Target
+KPI-01,On_Time_Delivery_Percent,Percent of delivered lines received on or before required date,On_Time_Deliveries/Total_Deliveries,Weekly,>=95%,TBD,TBD,06_PO_Register + 08_Delivery_Critical_Items,Procurement Manager,2026-02-11,Run supplier recovery plan
+KPI-02,RFQ_Turnaround_Days,Average days between RFQ issue and quote receipt,AVG(Quote_Received_Date-RFQ_Issue_Date),Weekly,<=14,TBD,TBD,03_RFQ_Log + 05_Quotations_Comparison,Lead Buyer,2026-02-11,Escalate non-responsive suppliers
+KPI-03,PO_Acknowledgment_Percent,Percent of issued POs formally acknowledged by suppliers,Acknowledged_Pos/Issued_Pos,Daily,100%,TBD,TBD,06_PO_Register,Buyers,2026-02-11,Trigger acknowledgment reminder process
+KPI-04,Critical_Overdue_Lines,Count of high criticality lines where ETA exceeds need date,"COUNTIFS(Criticality,""High"",Days_To_Need_Date,""<0"",Delivery_Status,""<>Delivered"")",Daily,0,TBD,TBD,08_Delivery_Critical_Items,Expediting Lead,2026-02-11,Hold daily expediting call
+KPI-05,Spend_Under_Management_USD,Total PO value placed through approved procurement process,SUM(Total_Line_Value_USD),Monthly,Budget aligned,TBD,TBD,06_PO_Register,Head of SCM,2026-02-11,Review sourcing strategy and budget variance
